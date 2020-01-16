@@ -1,0 +1,25 @@
+* {
+  background-color: rgb(169,169,169);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightslategray;
+    color: azure;
+}
+
+.main-menu {
+  list-style: none;
+  margin-top: 30px;
+}
+
+
+a:link {
+  text-decoration: none;
+}
