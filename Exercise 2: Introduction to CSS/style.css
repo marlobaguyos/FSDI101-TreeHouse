@@ -1,25 +1,39 @@
 * {
-  background-color: rgb(169,169,169);
-  margin: 0;
-  padding: 0;
+  margin: 0em;
+  padding: 0em;
+}
+body {
+  color: #878787;
+  font-size: 1em;
 }
 
-body {
-  text-align: justify;
+header {
+  background: url(img/EklutnaLakeKayaks.jpg);
+  color: white;
+  height: 30vh;
+  background-position: center;
+  background-size: cover, fixed;
+  
 }
 
 h1 {
-    text-align: center;
-    background-color: lightslategray;
-    color: azure;
+  font-size: 3em;
 }
+
+h2 {
+  font-size: 2em;
+}
+
 
 .main-menu {
+  text-align: right;
   list-style: none;
-  margin-top: 30px;
+}
+
+.main-menu li {
+  display: inline-block;
+  padding: 10px;
 }
 
 
-a:link {
-  text-decoration: none;
-}
+
